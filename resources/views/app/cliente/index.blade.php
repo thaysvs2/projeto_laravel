@@ -61,7 +61,7 @@
 
                     -->
                     <br>
-                    Exibindo {{ $clientes->count() }} fornecedores de {{ $clientes->total() }} (de {{ $clientes->firstItem() }} a {{ $clientes->lastItem() }})
+                    Exibindo {{ $clientes->count() }} clientes de {{ $clientes->total() }} (de {{ $clientes->firstItem() }} a {{ $clientes->lastItem() }})
             </div>
         </div>
 
